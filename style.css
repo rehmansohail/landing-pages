@@ -8,18 +8,24 @@ body{
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.title{
+    font-size:x-large;
+    padding-left: 50px;
+}
 .header{
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 30px;
+    background-color: burlywood;
     
    
 }
 #right-links{
     display: flex;
     gap: 8px;
+    padding: 20px;
 }
 #right-links a{
     color: black;
@@ -32,7 +38,8 @@ a{
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    background-color: aqua;
+    background-color: burlywood;
+    padding: 20px;
 }
 .s2{
     display: flex;
@@ -47,9 +54,11 @@ a{
 }
 .s3{
     display: flex;
+    width: 100%;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     margin-top: 30px;
+    background-color: blanchedalmond;
 }
 #quote{
     
